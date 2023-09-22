@@ -95,6 +95,22 @@ header{
   padding-inline: 1em;
   }
   
+  i{
+    padding:0.10em;
+    box-shadow: -5px -5px 9px rgba(255,255,255,0.45), 5px 5px 9px   rgba(94,104,121,0.3);
+    margin-bottom: 0.50em;
+    border-radius: 50px;
+  }
+  
+  i:hover {
+    transform: translateY(5px);
+    box-shadow: inset 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+  }
+  
+  i:active {
+  background-color: #916e6e;
+  }
+  
   
   
   
